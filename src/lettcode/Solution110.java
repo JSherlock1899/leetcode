@@ -4,31 +4,27 @@ import utils.TreeNode;
 
 /**
  * @author: sherlock
- * @description:平衡二叉树 DFS,求每一个节点的左右子树高度差，若大于二，直接返回false，若搜索到底了还没有返回，则证明
- * 这是一棵高度平衡的二叉树
+ * @description:平衡二叉树 自底向上的递归，算出每一层的左右子树差，若大于1则直接返回-1。如果子树是平衡的，
+ * 则返回它的高度，其实也就是dfs啦。
  * @date: 2020/8/17 15:33
  */
 public class Solution110 {
 
     public boolean isBalanced(TreeNode root) {
-        if (root == null) {
-            return true;
-        }
-        int right = 0;
-        int left = 0;
-        return dfs(root,left,right);
+        return height(root) >= 0;
     }
 
-    private boolean dfs(TreeNode root, int left, int right) {
-        if (Math.abs(left - right) > 2) {
-            return false;
+    private int height(TreeNode root) {
+        if (root == null) {
+            return 0;
         }
-        if (root.left != null) {
-            dfs(root.left, left + 1, right);
+        int leftHeight = height(root.left);
+        int rightHeight = height(root.right);
+        if (leftHeight == -1 || rightHeight == -1 || Math.abs(leftHeight - rightHeight) > 1) {
+            return -1;
         }
-        if (root.right != null) {
-            dfs(root.right, left, right + 1);
-        }
-        return Math.abs(left - right) < 2;
+        return Math.max(leftHeight, rightHeight) + 1; //这里加1是为了把父节点的高度算进去
     }
+
+
 }
