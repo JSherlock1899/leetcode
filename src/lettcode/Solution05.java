@@ -2,7 +2,7 @@ package lettcode;
 
 /**
  * @program: leetcode
- * @description:
+ * @description:最长回文子串
  * @author: Mr.Jiang
  * @create: 2019-08-26 21:10
  **/
@@ -53,16 +53,13 @@ public class Solution05 {
         }
         return s.substring(start, end + 1);
     }
-
-
     private static int expandAroundCenter(String s, int left, int right) {
-        int L = left;
-        int R = right;
-        while (L >= 0 && R < s.length() && s.charAt(L) == s.charAt(R)) {
-            L--;
-            R++;
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)){
+                left--;
+                right++;
         }
-        return R - L - 1;
+        //这里是因为此时left和right指针指向的已经是不相等的两个字符了所以要减2，而right - left 又会少1，所以减1
+        return right - left - 1;
     }
 
     public static void main(String[] args) {

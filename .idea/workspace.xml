@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a2e25b5-9f65-411f-838b-802696cc4626" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lettcode/Solution35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lettcode/Solution704.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lettcode/Solution74.java" afterDir="false" />
+    <list default="true" id="8a2e25b5-9f65-411f-838b-802696cc4626" name="Default" comment="2020/8/18">
+      <change afterPath="$PROJECT_DIR$/src/dp/Fib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lettcode/Solution1035.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lettcode/Solution1143.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lettcode/Solution62.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lettcode/Solution63.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lettcode/Solution647.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lettcode/Solution718.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offer/Solution10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/lettcode/Solution108.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/lettcode/Solution108.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/lettcode/Solution109.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/lettcode/Solution109.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lettcode/Solution03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lettcode/Solution03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lettcode/Solution108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lettcode/Solution108.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lettcode/Solution109.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lettcode/Solution109.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lettcode/Solution110.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lettcode/Solution110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/lettcode/Solution03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/lettcode/Solution03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/lettcode/Solution05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/lettcode/Solution05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lettcode/Solution05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lettcode/Solution05.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,63 +47,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution110.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-              <folding>
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution392.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lettcode/Solution03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="-892">
               <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="234" column="19" selection-start-line="234" selection-start-column="19" selection-end-line="234" selection-end-column="19" />
-              <folding>
-                <element signature="e#8762#8763#0" expanded="true" />
-                <element signature="e#8807#8808#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -109,38 +58,92 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lettcode/Solution04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="186">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution35.java">
+        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution05.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+            <state relative-caret-position="410">
+              <caret line="62" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dp/Fib.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
-                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution704.java">
+        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution647.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="224">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution74.java">
+        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution62.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="112">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding>
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution63.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-56">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution1143.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution718.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="23" column="19" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="23" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lettcode/Solution1035.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -171,16 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/Solution860.java" />
-        <option value="$PROJECT_DIR$/src/Array/Solution104.java" />
-        <option value="$PROJECT_DIR$/src/Array/Solution102.java" />
-        <option value="$PROJECT_DIR$/src/Array/Solution103.java" />
-        <option value="$PROJECT_DIR$/src/Array/Solution101.java" />
-        <option value="$PROJECT_DIR$/src/lettcode/Solution2.java" />
-        <option value="$PROJECT_DIR$/src/lettcode/Solution02.java" />
-        <option value="$PROJECT_DIR$/src/lettcode/Solution101.java" />
-        <option value="$PROJECT_DIR$/src/utils/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/lettcode/Solution114.java" />
         <option value="$PROJECT_DIR$/src/utils/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/other/MatrixTranspose.java" />
         <option value="$PROJECT_DIR$/src/other/AnnularMatrix.java" />
@@ -222,6 +215,16 @@
         <option value="$PROJECT_DIR$/src/lettcode/Solution704.java" />
         <option value="$PROJECT_DIR$/src/lettcode/Solution74.java" />
         <option value="$PROJECT_DIR$/src/lettcode/Solution03.java" />
+        <option value="$PROJECT_DIR$/src/lettcode/Solution05.java" />
+        <option value="$PROJECT_DIR$/src/lettcode/dp/Fib.java" />
+        <option value="$PROJECT_DIR$/src/dp/Fib.java" />
+        <option value="$PROJECT_DIR$/src/offer/Solution10.java" />
+        <option value="$PROJECT_DIR$/src/lettcode/Solution647.java" />
+        <option value="$PROJECT_DIR$/src/lettcode/Solution62.java" />
+        <option value="$PROJECT_DIR$/src/lettcode/Solution63.java" />
+        <option value="$PROJECT_DIR$/src/lettcode/Solution1143.java" />
+        <option value="$PROJECT_DIR$/src/lettcode/Solution718.java" />
+        <option value="$PROJECT_DIR$/src/lettcode/Solution1035.java" />
       </list>
     </option>
   </component>
@@ -241,7 +244,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
+    <option name="x" value="-5" />
     <option name="width" value="730" />
     <option name="height" value="835" />
   </component>
@@ -285,6 +288,12 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lettcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,7 +311,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597759112125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597851120460" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -323,15 +332,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution03">
+  <component name="RunManager" selected="Application.Solution1035">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lettcode.Solution03" />
+    <configuration name="Solution1035" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lettcode.Solution1035" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -344,8 +353,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution108" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lettcode.Solution108" />
+    <configuration name="Solution1143" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lettcode.Solution1143" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -358,8 +367,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution109" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lettcode.Solution109" />
+    <configuration name="Solution62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lettcode.Solution62" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -372,8 +381,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lettcode.Solution33" />
+    <configuration name="Solution63" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lettcode.Solution63" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -386,8 +395,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lettcode.Solution35" />
+    <configuration name="Solution718" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lettcode.Solution718" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -432,19 +441,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution33" />
-      <item itemvalue="Application.Solution108" />
-      <item itemvalue="Application.Solution109" />
-      <item itemvalue="Application.Solution35" />
-      <item itemvalue="Application.Solution03" />
+      <item itemvalue="Application.Solution62" />
+      <item itemvalue="Application.Solution63" />
+      <item itemvalue="Application.Solution1143" />
+      <item itemvalue="Application.Solution718" />
+      <item itemvalue="Application.Solution1035" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution03" />
-        <item itemvalue="Application.Solution35" />
-        <item itemvalue="Application.Solution109" />
-        <item itemvalue="Application.Solution108" />
-        <item itemvalue="Application.Solution33" />
+        <item itemvalue="Application.Solution1035" />
+        <item itemvalue="Application.Solution718" />
+        <item itemvalue="Application.Solution1143" />
+        <item itemvalue="Application.Solution63" />
+        <item itemvalue="Application.Solution62" />
       </list>
     </recent_temporary>
   </component>
@@ -487,12 +496,21 @@
       <workItem from="1597566898936" duration="7921000" />
       <workItem from="1597647190336" duration="22467000" />
       <workItem from="1597709363455" duration="598000" />
-      <workItem from="1597724271161" duration="7428000" />
+      <workItem from="1597724271161" duration="7688000" />
+      <workItem from="1597802345581" duration="19386000" />
     </task>
+    <task id="LOCAL-00001" summary="2020/8/18">
+      <created>1597759178379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597759178379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208966000" />
+    <option name="totallyTimeSpent" value="228612000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,7 +525,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4936479" visible="true" weight="0.20375335" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4936479" visible="true" weight="0.20643431" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -547,6 +565,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020/8/18" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/8/18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,6 +657,12 @@
           <properties />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lettcode/Solution63.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -652,73 +680,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution43.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3864">
-          <caret line="164" column="14" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15456">
-          <caret line="595" column="35" selection-start-line="595" selection-start-column="23" selection-end-line="595" selection-end-column="35" />
-          <folding>
-            <element signature="e#23628#23629#0" expanded="true" />
-            <element signature="e#23682#23683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="103" column="5" selection-start-line="97" selection-start-column="33" selection-end-line="103" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution100.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution70.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution50.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lettcode/Solution78.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
@@ -747,9 +708,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution05.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lettcode/Solution07.java">
@@ -982,10 +940,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lettcode/Solution110.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="196">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
-            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
           </folding>
         </state>
@@ -994,7 +952,7 @@
     <entry file="file://$PROJECT_DIR$/src/lettcode/Solution392.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1005,30 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution35.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-          <folding>
-            <element signature="e#763#764#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution704.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution74.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lettcode/Solution02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1036,16 +970,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="5432">
           <caret line="234" column="19" selection-start-line="234" selection-start-column="19" selection-end-line="234" selection-end-column="19" />
           <folding>
             <element signature="e#8762#8763#0" expanded="true" />
@@ -1054,10 +981,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution35.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+          <folding>
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution704.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution74.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Solution10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lettcode/Solution03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="-892">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution647.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution62.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/Fib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution63.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution1143.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution718.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lettcode/Solution1035.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
