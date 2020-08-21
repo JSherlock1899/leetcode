@@ -3,7 +3,7 @@ package lettcode;
 /**
  * @program: leetcode
  * @description:最长回文子串
- * @author: Mr.Jiang
+ * @author: sherlock
  * @create: 2019-08-26 21:10
  **/
 

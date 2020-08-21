@@ -1,5 +1,7 @@
 package utils;
 
+import java.util.List;
+
 /**
  * @author: sherlock
  * @description:
@@ -22,4 +24,6 @@ public class ListNode {
         head.next.next.next.next.next = new ListNode(6);
         return head;
     }
+
+
 }
