@@ -16,7 +16,7 @@ public class Solution119 {
         int[] dp = new int[rowIndex + 1];
         for (int i = 0; i <= rowIndex; i++) {
             for (int j = i; j >= 0; j--) {
-                dp[j] = j == i  || j == 0 ? 1 : dp[j - 1] + dp[j];
+                dp[j] = j == 0 || j == i ? 1 : dp[j - 1] + dp[j];
             }
         }
         List<Integer> list = new ArrayList<>();

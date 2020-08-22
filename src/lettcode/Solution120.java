@@ -14,20 +14,24 @@ public class Solution120 {
 
     public static int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
-        int[][] dp = new int[n][n];
-        dp[0][0] = triangle.get(0).get(0);
+        int[] dp = new int[n + 1];
+        dp[0] = triangle.get(0).get(0);
         for (int i = 1; i < n; i++) {
-            dp[i][0] = dp[i - 1][0] + triangle.get(i).get(0);
-            for (int j = 1; j < i; j++) {
-                dp[i][j] = Math.min(dp[i - 1][j], dp[i - 1][j - 1]) + triangle.get(i).get(j);
+            //每行最后一个
+            dp[i] = dp[i - 1] + triangle.get(i).get(i);
+            for (int j = i - 1; j > 0; j--) {
+                //从后往前
+                dp[j] = Math.min(dp[j - 1], dp[j]) + triangle.get(i).get(j);
             }
-            dp[i][i] = dp[i - 1][i - 1] + triangle.get(i).get(i);
+            //每行第一个，给dp[0]赋值下一轮的第一个
+            dp[0] += triangle.get(i).get(0);
+
         }
-        int res = Integer.MAX_VALUE;
+        int ans = dp[0];
         for (int i = 0; i < n; i++) {
-            res = Math.min(res, dp[n - 1][i]);
+            ans = Math.min(ans, dp[i]);
         }
-        return res;
+        return ans;
     }
 
     public static void main(String[] args) {

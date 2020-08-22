@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 /**
  * @author: sherlock
- * @description:零钱兑换，DP，
+ * @description:零钱兑换，经典DP，求出从0 —— amount中间每一个所需的最少的硬币个数。那么如果dp[i - coins[j]]是
+ * 存在的话，dp[i] = dp[i - coins[j]] + 1 即可
  * @date: 2020/8/21 21:04
  */
 public class Solution322 {
@@ -12,24 +13,19 @@ public class Solution322 {
     public static int coinChange(int[] coins, int amount) {
         int n = coins.length;
         int[] dp = new int[amount + 1];
-        Arrays.fill(dp, 100);
+        Arrays.fill(dp, amount + 1);
         dp[0] = 0;
         for (int i = 1; i <= amount; i++) {
             for (int j = 0; j < n; j++) {
-                if (i - coins[j] >= 0) {
-                    if (dp[i - coins[j]] != 0) {
-                        dp[i] = Math.min(dp[i], dp[i - coins[j]] + 1);
-                    } else {
-                        dp[i] = 0;
-                    }
-                }
+                if (i >= coins[j])
+                    dp[i] = Math.min(dp[i], dp[i - coins[j]] + 1);
             }
         }
-        return dp[amount];
+        return dp[amount] == amount + 1 ? -1 : dp[amount];
     }
 
     public static void main(String[] args) {
-        System.out.println(coinChange(new int[]{1, 2, 5}, 11));
-        System.out.println(coinChange(new int[]{2}, 11));
+//        System.out.println(coinChange(new int[]{1, 2, 5}, 11));
+        System.out.println(coinChange(new int[]{3}, 11111));
     }
 }
