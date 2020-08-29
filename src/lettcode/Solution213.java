@@ -16,13 +16,13 @@ public class Solution213 {
 
     // 仅计算闭区间 [start,end] 的最优结果
     static int robRange(int[] nums, int start, int end) {
-        int n = nums.length;
-        int x = 0, y = 0;
+        int x = 0;
+        int y = 0;
         int res = 0;
-        for (int i = end; i >= start; i--) {
-            res = Math.max(x, nums[i] + y);
-            y = x;   //原来y是dp[k-2]，现在变成了dp[k-1]    k - 2 --> k - 1
-            x = res;     //原来x是dp[k-1]，现在变成了dp[k]  k - 1 --> k
+        for (int i = end; i >= start ; i--) {
+            res = Math.max(x, y + nums[i]);
+            y = x;
+            x = res;
         }
         return res;
     }
