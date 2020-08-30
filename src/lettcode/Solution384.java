@@ -41,12 +41,9 @@ public class Solution384 {
         return nums;
     }
     public static void main(String[] args) {
-
-         int[] shuffle = shuffle();
+        int[] shuffle = shuffle();
         for (int i = 0; i < shuffle.length; i++) {
             System.out.print(shuffle[i] + "\t");
         }
-
-
     }
 }
