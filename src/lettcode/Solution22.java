@@ -13,18 +13,18 @@ import java.util.stream.Stream;
 public class Solution22 {
 
     public static List<String> generateParenthesis(int n) {
-        List<String> list = new ArrayList<>();
-        generate(0, 0, n, "", list);
-        return list;
+        List<String> res = new ArrayList<>();
+        generate(0, 0, n, "", res);
+        return res;
     }
 
-    private static void generate(int left, int right, int n, String s, List<String> list) {
+    private static void generate(int left, int right, int n, String s,List res) {
         if (left == n && right == n) {
-            list.add(s);
+            res.add(s);
             return;
         }
-        if (left < n) generate(left + 1, right, n, s + "(", list);
-        if (right < left) generate(left, right + 1, n, s + ")", list);
+        if (left < n) generate(left + 1, right, n, s + "(", res);
+        if (right < left) generate(left, right + 1, n, s + ")", res);
     }
 
     public static void main(String[] args) {
