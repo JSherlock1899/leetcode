@@ -24,7 +24,7 @@ public class Solution50 {
 
 
     public static void main(String[] args) {
-        System.out.println(myPow(0.0000000000001,
-                Integer.MIN_VALUE));
+        System.out.println(myPow(2.00,
+                10));
     }
 }

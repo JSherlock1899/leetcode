@@ -25,7 +25,6 @@ public class Solution200 {
         int count = 0;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                System.out.println(grid[i][j]);
                 if (grid[i][j] == '1') {
                     count++;
                     dfs(grid, i, j);

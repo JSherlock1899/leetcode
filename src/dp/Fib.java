@@ -7,9 +7,9 @@ package dp;
  */
 public class Fib {
 
-//    public static int fib(int n) {
-//        return n <= 1 ? n : fib(n - 1) + fib(n - 2);
-//    }
+    public static int fib(int n) {
+        return n <= 1 ? n : fib(n - 1) + fib(n - 2);
+    }
 
 //    public static int fib(int n,int[] memo) {
 //        if (n<=1) return n;
