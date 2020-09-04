@@ -2,22 +2,32 @@ package lettcode;
 
 /**
  * @author: sherlock
- * @description:
+ * @description:正则表达式匹配
  * @date: 2020/5/23 22:51
  */
 public class Solution10 {
 
-        public boolean isMatch(String text, String pattern) {
-            if (pattern.isEmpty()) return text.isEmpty();
-            boolean first_match = (!text.isEmpty() &&
-                    (pattern.charAt(0) == text.charAt(0) || pattern.charAt(0) == '.'));
-
-            if (pattern.length() >= 2 && pattern.charAt(1) == '*'){
-                return (isMatch(text, pattern.substring(2)) ||
-                        (first_match && isMatch(text.substring(1), pattern)));
-            } else {
-                return first_match && isMatch(text.substring(1), pattern.substring(1));
-            }
-        }
+//    public boolean isMatch(String s, String p) {
+//        int n = s.length();
+//        boolean[] dp = new boolean[n];
+//        dp[0] = s.charAt(0) == p.charAt(0) || p.charAt(0) == '.';
+//        for (int i = 1; i < n; i++) {
+//            if (s.charAt(i) == p.charAt(i)) {
+//                dp[i] = dp[i - 1];
+//            } else {
+//                return false;
+//            }
+//            if (p.charAt(i) == '.') {
+//                dp[i] = dp[i - 1];
+//            }
+//            if (p.charAt(i) == '*') {
+//                if (p.charAt(i - 1) == s.charAt(i)) {
+//                    dp[i] = dp[i - 1];
+//                } else {
+//
+//                }
+//            }
+//        }
+//    }
 
 }

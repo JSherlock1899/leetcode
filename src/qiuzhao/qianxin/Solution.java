@@ -1,4 +1,4 @@
-package qax;
+package qiuzhao.qianxin;
 
 import java.util.Arrays;
 

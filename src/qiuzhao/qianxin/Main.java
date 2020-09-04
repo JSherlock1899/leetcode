@@ -1,10 +1,10 @@
-package qax;
+package qiuzhao.qianxin;
 
 import java.util.Scanner;
 
 /**
  * @author: sherlock
- * @description:
+ * @description:奇安信笔试
  * @date: 2020/9/2 14:59
  */
 public class Main {

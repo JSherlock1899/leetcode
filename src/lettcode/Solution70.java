@@ -11,22 +11,16 @@ public class Solution70 {
         System.out.println(climb_Stairs(45));
     }
 
-    public static int climb_Stairs(int n) {
-        int[] arr = new int[n + 1];
-        return climbStairs(0, n, arr);
+    public static long climb_Stairs(int n) {
+        if (n == 0 ) return 0;
+        long[] dp = new long[n + 1];
+        dp[0] = 1;
+        dp[1] = 1;
+        for (int i = 2; i <= n; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+        return dp[n];
     }
 
-    public static int climbStairs(int i,int n,int[] arr) {
-        if (i > n) {
-            return 0;
-        }
-        if (i == n) {
-            return 1;
-        }
-        if (arr[i] > 0) {
-            return arr[i];
-        }
-        arr[i] = climbStairs(i + 1, n, arr) + climbStairs(i + 2, n, arr);
-        return arr[i];
-    }
+
 }

@@ -1,4 +1,4 @@
-package wy;
+package qiuzhao.wy;
 
 import java.util.Scanner;
 

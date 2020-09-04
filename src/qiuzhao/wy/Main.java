@@ -1,11 +1,11 @@
-package wy;
+package qiuzhao.wy;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
 /**
  * @author: sherlock
- * @description:
+ * @description:网易提前批笔试
  * @date: 2020/8/8 14:54
  */
 public class Main {
