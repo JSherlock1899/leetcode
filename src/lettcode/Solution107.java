@@ -13,16 +13,16 @@ public class Solution107 {
 
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList();
-        if (root != null) {
-            queue.offer(root);
-        }
+        List<List<Integer>> res = new ArrayList<>();
         Stack<List<Integer>> stack = new Stack<>();
+        if (root == null) return res;
+        queue.offer(root);
         while (!queue.isEmpty()) {
             int n = queue.size();
-            List<Integer> list = new ArrayList<>();
+            List<Integer> temp = new ArrayList<>();
             for (int i = 0; i < n; i++) {
                 TreeNode pollNode = queue.poll();
-                list.add(pollNode.val);
+                temp.add(pollNode.val);
                 if (pollNode.left != null) {
                     queue.offer(pollNode.left);
                 }
@@ -30,12 +30,13 @@ public class Solution107 {
                     queue.offer(pollNode.right);
                 }
             }
-            stack.add(list);
+            stack.add(temp);
         }
-        List<List<Integer>> res = new ArrayList<>();
         while (!stack.isEmpty()) {
             res.add(stack.pop());
         }
         return res;
     }
+
+
 }

@@ -5,47 +5,27 @@ import java.util.List;
 
 /**
  * @author: sherlock
- * @description:
+ * @description:最大连续1的个数 III，滑动窗口，先设置l，r两个指针，r指针不断往右移直到遇到0，遇到0之后K减1，直到k为0
+ * 此时就是以l指针为起点的最大值。然后就平移窗口，直到l指针遇到0，因为窗口中少了一个0，所以l指针可以继续往右移了。
  * @date: 2020/9/4 19:20
  */
 public class Solution1 {
 
-    public static int GetMaxConsecutiveOnes (int[] arr, int k) {
-        // write code here
-        int n = arr.length;
-        int count = 0;
-        int ans = -1;
-        int fin = -1;
-        for (int i = 0; i < n; i++) {
-            if (arr[i] == 1) {
-                count++;
-            } else {
-                count = 0;
+        public static int GetMaxConsecutiveOnes(int[] A, int K) {
+            int l = 0, r = 0, res = 0;
+            while (r < A.length) {
+                if (A[r] == 0) {
+                    if (K == 0) {
+                        while (A[l] == 1) l++;
+                        l++;
+                    } else {
+                        K--;
+                    }
+                }
+                res = Math.max(res, ++r - l);
             }
-            ans = Math.max(ans, count);
-            if (ans == count) {
-                fin = i;
-            }
+            return res;
         }
-        int[] temp = arr;
-        for (int i = fin - 1; i > 0; i--) {
-            if (arr[i] == 0 && k != 0) {
-                k--;
-                arr[i] = 1;
-            }
-        }
-        int max = -1;
-        int t = 0;
-        for (int i = 0; i < n; i++) {
-            if (arr[i] == 1) {
-                t++;
-            } else {
-                t = 0;
-            }
-            max = Math.max(max, t);
-        }
-        return max;
-    }
 
 
 

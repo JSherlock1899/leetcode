@@ -1,5 +1,8 @@
 package lettcode;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @program: leetcode
  * @description:最长回文子串
@@ -61,6 +64,20 @@ public class Solution05 {
 //        //这里是因为此时left和right指针指向的已经是不相等的两个字符了所以要减2，而right - left 又会少1，所以减1
 //        return right - left - 1;
 //    }
+
+    public int lengthOfLongestSubstring(String s) {
+        Map<Character, Integer> dic = new HashMap<>();
+        int res = 0, tmp = 0;
+        for(int j = 0; j < s.length(); j++) {
+            int i = dic.getOrDefault(s.charAt(j), -1); // 获取索引 i
+            dic.put(s.charAt(j), j); // 更新哈希表
+            tmp = tmp < j - i ? tmp + 1 : j - i; // dp[j - 1] -> dp[j]
+            res = Math.max(res, tmp); // max(dp[j - 1], dp[j])
+        }
+        return res;
+    }
+
+
     public static String longestPalindrome(String s) {
         int n = s.length();
         if (n < 2) {
