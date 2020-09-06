@@ -12,7 +12,7 @@ import java.util.HashSet;
 public class Solution03 {
 
     public static void main(String[] args) {
-        System.out.println(getPasswordCount("09"));
+        System.out.println(getPasswordCount("1234567890"));
     }
 
     public static long getPasswordCount (String password) {

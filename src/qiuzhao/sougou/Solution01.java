@@ -1,5 +1,9 @@
 package qiuzhao.sougou;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * @author: sherlock
  * @description:
@@ -12,19 +16,47 @@ public class Solution01 {
         System.out.println(numberofprize(9,3,3));
     }
 
+
+
     public static int numberofprize (int a, int b, int c) {
-        int n1 = Math.min(a, Math.min(b, c));
-        int temp = -1;
-        if (a == n1) {
-            temp = a;
+        // write code here
+        int left=min(a,b,c);
+        int right=max(a,b,c);
+        while (left<=right){
+            int mid=left+(right-left)/2;
+            if (check(mid,a,b,c)){
+                left=mid+1;
+            }else{
+                right=mid-1;
+            }
         }
-        if (b == n1) {
-            temp = b;
+        return right;
+    }
+
+    private static boolean check(int mid, int a, int b, int c) {
+        long left=0;
+        if (a>=mid){
+            left+=(a-mid);
+        }else {
+            left-=(2*(mid-a));
         }
-        if (c == n1) {
-            temp = c;
+        if (b>=mid){
+            left+=(b-mid);
+        }else {
+            left-=(2*(mid-b));
         }
-        int count = (a + b + c - 3 * temp) / 2;
-        return n1 + count / 2;
+        if (c>mid){
+            left+=(c-mid);
+        }else {
+            left-=(2*(mid-c));
+        }
+        return left>=0;
+    }
+
+    private static int min(int a, int b, int c) {
+        return Math.min(Math.min(a,b),c);
+    }
+    private static int max(int a, int b, int c) {
+        return Math.max(Math.max(a,b),c);
     }
 }
