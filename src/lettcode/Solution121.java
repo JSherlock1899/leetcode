@@ -2,7 +2,7 @@ package lettcode;
 
 /**
  * @author: sherlock
- * @description:
+ * @description:买卖股票的最佳时机
  * @date: 2020/8/8 19:11
  */
 public class Solution121 {
@@ -12,20 +12,13 @@ public class Solution121 {
 
     }
     public static int maxProfit(int[] prices) {
-        if (prices.length == 2 && prices[1] > prices[0] ) {
-            return prices[1] - prices[0];
+        if (prices == null || prices.length == 0) return 0;
+        int res = 0;
+        int currMin = prices[0];
+        for (int i = 0; i < prices.length; i++) {
+            currMin = Math.min(currMin, prices[i]);
+            res = Math.max(res, prices[i] - currMin);
         }
-        if (prices.length < 2)
-            return 0;
-        int max = 0;
-        int min = prices[0];
-        for (int i = 1; i < prices.length; i++) {
-            max = Math.max(max, prices[i] - min);
-            if (min > prices[i]) {
-                min = prices[i];
-            }
-        }
-        return max;
-
+        return res;
     }
 }
